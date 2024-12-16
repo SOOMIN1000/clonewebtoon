@@ -1,0 +1,660 @@
+@media (max-width : 1840px){
+    .company .icon{
+        left: 1%;
+    }
+
+    .company .left_title{
+        left: -200px;
+    }
+}
+
+@media (max-width : 1600px){
+    html{
+        font-size: 1.04vw;
+    }
+
+    .scroll_text_wrap{
+        margin-top: -100px;
+    }
+
+    .scroll_text_wrap .c-yellow{
+        margin-top: 5vh;
+    }
+
+    .festival_poster .txt_area>ul>li .txt::before{
+        top: 16px;
+    }
+
+    .company .icon{
+        bottom: 0;
+    }
+
+    .company .left_title{
+        left: -14%;
+        position: relative;
+        left: auto;
+        top: auto;
+        bottom: auto;
+        margin-bottom: 50px;
+        padding-left: 4vw;
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    .company .logo_list{
+        padding-right: 2%;
+    }
+}
+
+@media(max-width:1200px){
+    .scroll_text_wrap{
+        margin-top: -6vh;
+    }
+    .scroll_text_wrap .marquee-wrap,
+    .scroll_text_wrap .c-yellow .marquee-wrap-row{
+        text-shadow: 1px 5px 1px rgba(0,0,0,1);
+    }
+
+    .festival_poster .txt_area>ul>li .txt::before{
+        top: 12px;
+    }
+    
+    .where .object_1{
+        top: -5%;
+    }
+
+    .where .object_4{
+        bottom: -4%;
+    }
+
+    .where .d-flex{
+        display: block;
+    }
+
+    .where .map_area{
+        width: 100%;
+    }
+
+    .where .floor_list{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .where .floor_list ul li{
+        margin-bottom: 30px;
+    }
+
+    .program h1, .company .left_title{
+        font-size: 8.33vw;
+        opacity: 1;
+    }
+    .program_list>li .inner{
+        padding: 20px;
+    }
+}
+
+@media(max-width:960px){
+    .section_1 .visual_txt.pc{
+        display: none;
+    }
+
+    .section_1 .visual_txt.mb{
+        width: 80%;
+        display: block;
+    }
+
+    .scroll_text_wrap .marquee-wrap,
+    .scroll_text_wrap .c-yellow .marquee-wrap-row{
+        text-shadow: 1px 2px 1px rgba(0,0,0,1);
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .festival_poster{
+        padding: 50px 0;
+        display: block;
+    }
+    .festival_poster .img_area{
+        width: 100%;
+    }
+    .festival_poster .img_area img{
+        margin: auto;
+    }
+    .festival_poster .txt_area{
+        margin: 40px 0 0;
+        width: 100%;
+    }
+    .festival_poster .txt_area h1{
+        display: none;
+    }
+    .festival_poster .txt_area ul{
+        padding: 0 7%;
+    }
+    .festival_poster .pc{
+        display: none;
+    }
+    .festival_poster .mb{
+        display: block;
+    }
+    .festival_poster .txt_area>ul>li .title{
+        width: 110px;
+    }
+    .where{
+        padding: 35px 0 12vh;
+    }
+    .where .cont{
+        padding: 0 7%;
+    }
+    .where .d-flex{
+        margin-top: 0;
+    }
+    .where .pc{
+        display: none;
+    }
+
+    .where .mb{
+        display: block;
+    }
+    .where .floor_list h2{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .where .floor_list h2::before{
+        width: 8px;
+        height: 8px;
+        top: 8px;
+    }
+
+    .where .floor_list .title button{
+        font-size: 6rem;
+    }
+    .where .floor_list .view{
+        font-size: 5.4vw;
+    }
+
+    .program{
+        padding-bottom: 0;
+    }
+
+    .program .balloon{
+        width: 4.5%;
+        top: -50px;
+        right: 2%;
+    }
+
+    .program .pc{
+        display: none;
+    }
+    .program_m{
+        display: block;
+    }
+
+    .program_list>li{
+        border-left: none;
+    }
+    .program_list>li{
+        margin: -1px 0 0;
+        width: 50%;
+    }
+    .program_list>li .inner{
+        min-height: 420px;
+    }
+    .program_list>li:nth-child(2n){
+        border-left: 1px solid #000;
+    }
+
+    .program_m .btn_programe_open{
+        width: 100%;
+        padding: 30px 100px 30px 5%;
+        position: relative;
+        box-sizing: border-box;
+        font-size: 4vw;
+        font-weight: 600;
+        text-align: left;
+        border-bottom: 2px solid #000;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-wrap: normal;
+        overflow: hidden;
+        letter-spacing: -0.045em;
+    }
+    .program_m .btn_programe_open .icon{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 20px;
+        width: 80px;
+        box-sizing: border-box;
+        background: url(./img/arrow4.png) no-repeat 0 center;
+        text-align: center;
+        display: block;
+    }
+
+    .program_m .btn_programe_open .icon object{
+        max-width: 30px;
+    }
+
+    .program_m .list_1 .programe_cont{background-color: #d5e3ff;}
+    .program_m .list_2 .programe_cont{background-color:#e1f5d1;}
+    .program_m .list_3 .programe_cont{background-color:#ffe9d8;}
+    .program_m .list_4 .programe_cont{background-color:#FFDFEA;}
+    .program_m .list_5 .programe_cont{background-color:#f9e9ff;}
+    .program_m .list_6 .programe_cont{background-color:#e4edff;}
+    .program_m .list_7 .programe_cont{background-color:#eee;}
+    .program_m .list_8 .programe_cont{background-color:#ecf3ff;}
+    .program_m .list_9 .programe_cont{background-color:#ffdbde;}
+    .program_m .list_10 .programe_cont{background-color:#ffdbff;}
+    .program_m .list_11 .programe_cont{background-color:#fffadb;}
+    .program_m .list_12 .programe_cont{background-color:#ffe9db;}
+    .program_m .list_13 .programe_cont{background-color:#d5e3ff;}
+    .program_m .programe_cont{
+        position: relative;
+    }
+    .programe_cont{
+        transition: all .4s ease;
+        height: 0;
+        overflow: hidden;
+    }
+    .programe_cont .inner{
+        padding: 40px 5%;
+    }
+    .program_m .top_txt{
+        margin-bottom: 30px;
+    }
+    .programe_cont h2{
+        font-size: 6.25vw;
+        font-weight: 600;
+        word-break: keep-all;
+        letter-spacing: -0.045em;
+    }
+    .programe_cont .en,.programe_cont h3{
+        font-size: 3.75vw;
+        font-weight: 600;
+        word-break: keep-all;
+        letter-spacing: -0.045em;
+    }
+    .programe_cont p{
+        font-size: 3.75vw;
+        font-weight: 500;
+        word-break: keep-all;
+        letter-spacing: -0.045em;
+    }
+    .programe_cont .img{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    .programe_cont .img object{
+        max-width: 30px;
+    }
+
+    .company .d-flex{
+        display: block;
+    }
+
+    .company .logo_cont{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .company .logo_cont .inner{
+        padding: 4%;
+        max-width: 100%;
+        padding-top: 80px;
+    }
+
+    .company .logo_cont .inner::before{
+        position: absolute;
+        left: 15%;
+        top: 30px;
+        width: 76px;
+        height: 31px;
+        background: url(./img/arrow_m.png);
+    }
+    .company .logo_list{
+        padding-right: 0;
+    }
+    .company h2{
+        position: relative;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .company h2::before{
+        left: 0;
+        top: 8px;
+    }
+    .company ul>li{
+        padding: 10px;
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .company .pc{
+        display: none;
+    }
+
+    .company ul.row-text>li{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .company .rolling_contents_wrap{
+        width: 100%;
+    }
+
+    .company .rolling_contents .swiper-slide-inner{
+        padding: 40px 4%;
+        display: flex;
+        align-items: center;
+    }
+
+    .company .rolling_contents .swiper-slide-inner .img_area{
+        width: 45%;
+    }
+
+    .company .rolling_contents .swiper-slide-inner .txt_area{
+        margin-left: auto;
+        width: 47%;
+        padding: 0 0 30px;
+    }
+
+    .company .control{
+        left: 53%;
+    }
+    .company .control .logo_move_prev{
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+    }
+    .company .control .logo_move_next{
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+    }
+    .company .mb{
+        display: block;
+        padding: 9.38vw 4.17vw 0;
+    }
+
+    .footer{
+        padding-top: 14vh;
+    }
+
+    .footer h1{
+        font-size: 4.37vw;
+        margin-bottom: 5vw;
+    }
+
+    .footer_info {
+        display: block;
+    }
+    .footer_info ul{
+        width: 100%;
+    }
+    .footer_info ul li{
+        font-size: 3.7vw;
+    }
+    .footer_info ul li strong{
+        width: 17.47vw;
+        font-size: 3.93vw;
+    }
+    .copyright{
+        position: relative;
+        right: auto;
+        margin-top: 6.55vw;
+        font-size: 3.93vw;
+    }
+
+    .footer .scroll_txt{
+        height: auto;
+        padding-top: 20px;
+        transform: translateY(10%);
+    }
+
+    .footer .marquee-text{
+        transform: translateY(2%);
+    }
+
+    .footer .marquee-wrap img{
+        max-width: 1000px;
+    }
+}
+
+@media(max-width:860px){
+    .header .logo{
+        display: none;
+    }
+    .header .menu{
+        width: 100%;
+    }
+    .header .menu ul{
+        padding: 10px 5%;
+        height: auto;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .header .menu ul li{
+        margin-left: 0;
+    }
+    .header .menu ul li a{
+        font-size: 2.5vw;
+    }
+    .program_list>li .img{
+        width: 12%;
+        text-align: right;
+    }
+}
+
+@media(max-width:768px){
+    .header .menu ul li a{
+        font-size: 3.25vw;
+    }
+    
+    .section_1 .vs_bg{
+        margin-top: 35vh;
+    }
+    
+    .section_1 .vs_bg_img.pc{
+        display: none;
+    }
+    .section_1 .vs_bg_img.mb{
+        display: block;
+    }
+    .section_1 .line{
+        display: none;
+    }
+    .section_1 .visual_txt{
+        top: 14vh;
+        width: 90%;
+        left: 50%;
+    }
+
+    .section_1 .reservation{
+        width: 20%;
+        top: 64%;
+    }
+
+    .section_1 .btn_reservation{
+        font-size: 2.295rem;
+    }
+
+    .festival_poster .img_area{
+        margin: 0 auto 40px;
+        max-width: 50%;
+    }
+    .festival_poster .txt_area>ul>li .title{
+        width: 100px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .festival_poster .txt_area>ul>li .txt{
+        padding-left: 15px;
+        font-size: 16px;
+        width: calc(100% - 70px);
+        line-height: 1.5;
+        word-break: keep-all;
+    }
+
+    .where .top_img{
+        max-width: 52%;
+    }
+
+    .where .object_1{
+        width: 55%;
+        top: -5%;
+    }
+    .where .object_2{
+        width: 32%;
+        bottom: -12vh;
+    }
+    .where .object_3{
+        right: 5%;
+        width: 63%;
+        bottom: -31vw;
+    }
+    .where .object_4{
+        bottom: -18vw;
+        width: 50%;
+    }
+
+    .where h1{
+        font-size: 52px;
+    }
+
+    .where address{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .where .floor_list .title{
+        padding-left: 0;
+        height: auto;
+    }
+
+    .where .floor_list .title::before{
+        margin-right: 4.37vw;
+        width: 6.11vw;
+        height: 12.01vw;
+        background-size: 100%;
+    }
+
+    .where .floor_list .view{
+        padding-left: 4vw;
+        font-size: 4.37vw;
+    }
+
+    .where .floor_list .view::before{
+        top: 50%;
+        width: 3vw;
+        height: 6vw;
+        background-size: 100%;
+        transform: translateY(-50%);
+        background-size: 100%;
+    }
+
+    .floor_popup .popup_cont{
+        padding: 0;
+    }
+    .floor_popup .top_area{
+        margin-bottom: 0px;
+        padding: 0 20px;
+    }
+
+    .floor_popup h1{
+        font-size: 8.5vw;
+    }
+
+    .floor_popup h1 img{
+        margin-right: 20px;
+        width: 7vw;
+    }
+
+    .floor_popup .img_area{
+        overflow: auto;
+    }
+    
+    .program{
+        padding: 37.5vw 0 0; 
+    }
+
+    .program h1{
+        padding: 0 5%;
+        margin-bottom: 30px;
+    }
+
+    .program_list>li{
+        width: 100%;
+        border: none;
+        border-top: 1px solid #000;
+    }
+
+    .program_list>li .inner{
+        padding: 8% 8% 16%;
+        min-height: 91.27vw;
+    }
+
+    .program_list>li .top_txt{
+        margin-bottom: 50px;
+    }
+    .program_list>li h2{
+        font-size: 6.55vw;
+    }
+    .program_list>li .en{
+        font-size: 3.93vw;
+    }
+    .program_list>li ul li{
+        margin-bottom: 5px;
+    }
+    .program_list>li .comming_soon, 
+    .program_list>li p, 
+    .program_list>li h3{
+        font-size: 3.93vw;
+    }
+
+    .program_list>li:nth-child(2n){
+        border: none;
+        border-top: 1px solid #000;
+    }
+
+    .company{
+        padding: 80px 0;
+    }
+
+    .company::before{
+        position: absolute;
+        right: 0;
+        top: 10.25vw;
+        width: 42.9vw;
+        height: 37.5vw;
+        background: url(./img/event_object_8.svg) no-repeat center center;
+        background-size: 100%;
+        display: block;
+        content: "";
+    }
+
+    .company .icon{
+        width: 11%;
+    }
+
+    .company .logo_list ul>li{
+        min-height: 0;
+        padding: 10px 0;
+    }
+
+    .company .logo_list ul>li img{
+        max-width: 80%;
+    }
+
+    .company .rolling_contents .swiper-slide-inner .txt_area .name,
+    .company .rolling_contents .swiper-slide-inner .txt_area .name span{
+        font-size: 4.37vw;
+    }
+
+    .company .rolling_contents .swiper-slide-inner .txt_area .title{
+        font-size: 6vw;
+        word-break: keep-all;
+    }
+}

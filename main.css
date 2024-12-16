@@ -1,0 +1,1415 @@
+@import url(https://db.onlinewebfonts.com/c/0370458ef985a8719c1a1dfa9b6b85e5?family=Mont+Heavy+DEMO);
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@font-face {
+    font-family: "Mont Heavy DEMO";
+    src: url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.eot");
+    src: url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0370458ef985a8719c1a1dfa9b6b85e5.svg#Mont Heavy DEMO")format("svg");
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lexend/v23/wlpwgwvFAVdoq2_v9KQU4Wc.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lexend/v23/wlpwgwvFAVdoq2_v9aQU4Wc.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lexend/v23/wlpwgwvFAVdoq2_v-6QU.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-display: swap;
+    src: local('Pretendard Black'),
+       url('font/Pretendard-Black.woff2') format('woff2'),
+       url('font/Pretendard-Black.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-display: swap;
+    src: local('Pretendard ExtraBold'),
+       url('font/Pretendard-ExtraBold.woff2') format('woff2'),
+       url('font/Pretendard-ExtraBold.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: local('Pretendard Bold'),
+       url('font/Pretendard-Bold.woff2') format('woff2'),
+       url('font/Pretendard-Bold.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: local('Pretendard SemiBold'),
+       url('font/Pretendard-SemiBold.woff2') format('woff2'),
+       url('font/Pretendard-SemiBold.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Pretendard Medium'),
+       url('font/Pretendard-Medium.woff2') format('woff2'),
+       url('font/Pretendard-Medium.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'),
+       url('font/Pretendard-Regular.woff2') format('woff2'),
+       url('font/Pretendard-Regular.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    src: local('Pretendard Light'),
+       url('font/Pretendard-Light.woff2') format('woff2'),
+       url('font/Pretendard-Light.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 200;
+    font-display: swap;
+    src: local('Pretendard ExtraLight'),
+       url('font/Pretendard-ExtraLight.woff2') format('woff2'),
+       url('font/Pretendard-ExtraLight.woff') format('woff');
+ }
+ 
+ @font-face {
+    font-family: 'Pretendard';
+    font-weight: 100;
+    font-display: swap;
+    src: local('Pretendard Thin'),
+       url('font/Pretendard-Thin.woff2') format('woff2'),
+       url('font/Pretendard-Thin.woff') format('woff');
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Pretendard","MalgunGothic","맑은 고딕","돋움","tahoma","sans-serif";
+    line-height:1.4;
+    color: #0f1010;
+    font-weight: 400;
+}
+
+span{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+object{
+    border: 0px;
+    max-width: 100%;
+}
+
+body{
+    padding-top: 1.14%;
+}
+
+
+/* popup */
+.__alertPopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 500px;
+    z-index: 9999;
+}
+
+.__alertPopup a img{
+    vertical-align: middle;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.__alertPopup .bt_line{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.__alertPopup .bt_line button{
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* popup 끝 */
+
+/* cursor */
+body.custom_cursor{
+    cursor: none;
+}
+
+.cursor{
+    width: 119px;
+    height: 119px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+    background-image: url(./img/cursor.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    display: none;
+}
+
+.custom_cursor .cursor{
+    display: flex;
+}
+/* cursor 끝 */
+
+/* header */
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    padding: 1.14%;
+    box-sizing: border-box;
+}
+
+.header::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    padding-bottom: 1.14%;
+    background-color: #fff;
+    display: block;
+    content: '';
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.header .logo{
+    padding-left: 20px;
+    height: 38px;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header .logo a{
+    position: relative;
+    display: block;
+    font-weight: 600;
+}
+.header .menu{
+    margin-left: auto;
+    width: 50%;
+    background-color: #000;
+}
+.header .menu ul{
+    padding-left: 3%;
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+.header .menu ul li{
+    margin-left: 45px;
+}
+.header .menu ul li.active a{
+    color: #50fe43;
+}
+
+.header .menu ul li a{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+    letter-spacing: -0.045em;
+}
+
+.header .menu ul li a:hover{
+    color: #50fe43;
+}
+
+.cont_wrap{
+    position: relative;
+    padding: 0 1.14%;
+    overflow: hidden;
+}
+
+.section_1{
+    position: relative;
+    z-index: 2;
+    border: 2px solid #000;
+    padding-top: 42px;
+    border-bottom: none;
+}
+
+.section_1 .vs_bg{
+    position: relative;
+    margin-top: 300px;
+}
+
+.section_1 .object_1{
+    position: absolute;
+    left: 3%;
+    top: 0;
+    z-index: 3;
+    width: 3.5%;
+    animation: flower 10s linear infinite 0.6s;
+}
+@keyframes flower{
+    0%{ top:0; left:3%; transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)}
+    20%{ top:20%; left:10%;}
+    50%{ top:10%; left:30%;}
+    70%{ top:-10%; left:15%;}
+    100%{top:0%; left:3%; transform:rotateX(0deg) rotateY(0deg) rotateZ(360deg)}
+}
+
+.section_1 .object_2{
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    z-index: 3;
+    width: 2.3%;
+    animation: bee 20s linear infinite 0.6s;
+}
+@keyframes bee{
+    0%{ right:30%; top:50%; }
+    10%{ right:20%; top:45%; }
+    20%{ right:10%; top:40%; }
+    30%{ right:-10%; top:42%; }
+    40%{ right:-20%; top:45%; }
+    50%{ right:-30%; top:30%; }
+    60%{ right:-40%; top:32%; }
+    70%{ right:-50%; top:20%; }
+    80%{ right:-60%; top:25%; }
+    90%{ right:-70%; top:15%; }
+    100%{ right:-80%; top:10%;}
+}
+
+.section_1 .object_3{
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    z-index: 3;
+    width: 4.6%;
+    animation: heart 1s linear infinite 0.6s;
+}
+@keyframes heart{
+    0%{ transform:scale3d(1, 1, 1); }
+    50%{ transform: scale3d(1.02, 1.05, 2);}
+    100%{transform: scale3d(1, 1, 1); }
+}
+
+.section_1 .object_4{
+    position: absolute;
+    right: 17%;
+    top: 25%;
+    z-index: 3;
+    width: 4.5%;
+    animation: balloon 6s ease-in-out infinite 0.6s;
+}
+@keyframes balloon{
+    0%{ top:25%;}
+    50%{ top:20%;}
+    100%{top:25%;}
+}
+
+.section_1 .vs_bg_img.pc{
+    display: block;
+}
+
+.section_1 .vs_bg_img.mb{
+    display: none;
+}
+
+.section_1 .vs_bg img{
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.section_1 .line{
+    position: absolute;
+    right: 8%;
+    top: 15%;
+    width: 15.4%;
+}
+
+.section_1 .visual_txt{
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    z-index: 3;
+    width: 79%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
+
+.section_1 .visual_txt.pc{
+    display: block;
+}
+.section_1 .visual_txt.mb{
+    display: none;
+}
+
+.section_1 .reservation{
+    position: absolute;
+    right: 1.8%;
+    top: 43%;
+    width: 9%;
+    z-index: 10;
+
+}
+.section_1 .btn_reservation{
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #fff ;
+    font-weight: 600 ;
+    background: linear-gradient(137deg, rgba(41,241,156,1) 0% , rgba(2,161,249,1) 100%);
+    animation: reservation 2s ease-in-out infinite;
+}
+
+.section_1 .btn_reservation span{
+    color: #fff ;
+    font-weight: 600 ;
+}
+
+.section_1 .btn_reservation::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    content: '';
+}
+@keyframes reservation{
+    0%{ transform:translateY(0);}
+    50%{ transform: translateY(-20px);}
+    100%{transform: translateY(0);}
+}
+
+.scroll_text_wrap{
+    position: relative;
+    z-index: 1;
+    margin-top: -240px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.scroll-text-line{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.scroll-text-line .marquee-text{
+    transform: translateY(100%);
+    transition: all 0.4s ease-out;
+}
+
+.scroll_text_wrap.is-inview .marquee-text{
+    transform: translateY(25%);
+}
+
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(1) .marquee-text{
+    transition-delay: 0.6s;
+}
+
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(1) .marquee-text{
+    transition-delay: 0.8s;
+}
+
+.scroll-text-line::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 0;
+    height: 3px;
+    background-color: #757e88;
+    display: block;
+    content: "";
+    transition: all 0.6s ease-out;
+}
+
+.scroll-text-line:nth-child(2)::before{
+    left: auto;
+    right: 0;
+}
+
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(1)::before{
+    transition-delay: 0.2s;
+}
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(2)::before{
+    transition-delay: 0.4s;
+}
+.scroll_text_wrap.is-inview .scroll-text-line::before{
+    width: 100%;
+}
+
+.scroll_text_wrap .c-yellow{
+    margin-top: 4vh;
+}
+
+.marquee3k__wrapper{
+    white-space: nowrap;
+}
+
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(1) .marquee-text{
+    transition-delay: 0.6s;
+}
+
+.scroll_text_wrap.is-inview .scroll-text-line:nth-child(2) .marquee-text{
+    transition-delay: 0.8s;
+}
+
+
+.section_1 ~ .scroll_text_wrap .marquee-text{
+    width: 200%;
+}
+
+.festival_poster_wrap{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.festival_poster{
+    padding: 200px 0 100px;
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+}
+.festival_poster .img_area{
+    width: 37%;
+    text-align: center;
+}
+.festival_poster .txt_area{
+    margin-left: auto;
+    width: 56.875%;
+}
+.festival_poster .txt_area h1{
+    margin-bottom: 110px;
+    line-height: 1.2;
+    font-size: 4.3125rem;
+    letter-spacing: -0.045em;
+    font-family: "Mont Heavy DEMO";
+}
+.festival_poster .pc{
+    display: block;
+}
+.festival_poster .mb{
+    display: none;
+}
+.festival_poster .txt_area>ul>li{
+    margin-bottom: 8px;
+    display: flex;
+}
+.festival_poster .txt_area>ul>li .title{
+    width: 170px;
+    font-size: 1.625rem;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: -0.045em;
+}
+.festival_poster .txt_area>ul>li .txt{
+    position: relative;
+    margin-left: auto;
+    width: calc(100% - 110px);
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 1.625rem;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: -0.045em;
+}
+
+.festival_poster .txt_area>ul>li .txt::before{
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 2px;
+    height: 14px;
+    background-color: #47484d;
+    display: block;
+    content: "";
+}
+
+#section-2{
+    overflow: inherit;
+}
+.cont_wrap.bg::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.14%;
+    height: 100%;
+    background: url(./img/wrap_bg.gif) repeat-y 0 0;
+    background-size: 100%;
+    display: block;
+    content: "";
+}
+.cont_wrap.bg::after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.14%;
+    height: 100%;
+    background:url(./img/wrap_bg.gif) repeat-y 0 0;
+    background-size: 100%;
+    display: block;
+    content: "";
+}
+
+.where{
+    position: relative;
+    padding: 35px 0 100px;
+    background-color: #f5f5e9;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+
+.where .top_img{
+    max-width: 30%;
+}
+
+.where .object_1{
+    position: absolute;
+    right: 0;
+    top: -15%;
+    width: 37%;
+    text-align: right;
+}
+.where .object_2{
+    position: absolute;
+    left: 0;
+    bottom: -16%;
+    width: 15%;
+}
+.where .object_3{
+    position: absolute;
+    right: 10%;
+    bottom: -8%;
+    width: 29%;
+    z-index: 10;
+}
+.where .object_4{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    width: 29%;
+}
+
+.where .cont{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1600px;
+}
+
+.where h1{
+    font-family: "Mont Heavy DEMO";
+    font-size: 10.4375rem;
+    line-height: 1;
+    letter-spacing: -0.045em;
+}
+
+.where h1 span b{
+    font-family: "Mont Heavy DEMO";
+    position: relative;
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+
+.where h1 span b:nth-child(1){
+    transition: 2.2s;
+}
+.where h1 span b:nth-child(2){
+    transition: 1.2s;
+}
+.where h1 span b:nth-child(3){
+    transition: 2.4s;
+}
+.where h1 span b:nth-child(4){
+    transition: 1.7s;
+}
+.where h1 span b:nth-child(5){
+    transition: 2.6s;
+}
+.where h1 span b:nth-child(6){
+    transition: 2.2s;
+}
+
+.where h1.is-inview span b{
+    opacity: 1 !important;
+}
+
+.where .d-flex{
+    margin-top: 80px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.where .map_area{
+    padding-top: 50px;
+    width: 46.25%;
+}
+
+.where .pc{
+    display: block;
+}
+.where .mb{
+    display: none;
+}
+
+.where .floor_list{
+    margin-left: auto;
+    width: 47.25%;
+}
+
+.where .floor_list .on .view::before{
+    transform: rotate(-180deg);
+    margin-top : -10px;
+}
+
+.where .floor_list h2{
+    position: relative;
+    margin-bottom: 60px;
+    padding-left: 26px;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.045em;
+}
+
+.where .floor_list h2::before{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    border-radius: 50%;
+    display: block;
+    content: "";
+}
+
+.where .floor_list ul li{
+    margin-bottom: 80px;
+}
+
+.where .floor_list .title{
+    position: relative;
+    padding: 10px 0 5px 20px;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.where .floor_list .title::before{
+    margin-right: 40px;
+    width: 42px;
+    height: 82px;
+    display: block;
+    content: "";
+    transform: translateY(120%);
+    transition: all 0.3s ease-out;
+}
+.where .floor_list .title::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    content: '';
+    transition: all 1s ease-out;
+}
+.where .floor_list.is-inview .title:after{
+    width: 100%;
+}
+.where .floor_list li:first-child .title::before{
+    transition-delay: 1.2s;
+}
+.where .floor_list li:nth-child(2) .title::before{
+    transition-delay: 1.6s;
+}
+
+.where .floor_list li:nth-child(1) .title::before{
+    background: url(./img/floor_icon_1.svg) no-repeat center center;
+    background-size: 100%;
+}
+
+.where .floor_list.is-inview .title::before{
+    transform: translateY(0);
+}
+
+.where .floor_list li:nth-child(2) .title::before{
+    background: url(./img/floor_icon_3.svg) no-repeat center center;
+    background-size: 100%;
+}
+
+
+.where .floor_list .title button{
+    font-size: 4.5rem;
+    font-family: "Mont Heavy DEMO";
+    line-height: 1;
+    letter-spacing: -0.5px;
+    transform: translateY(120%);
+    transition: all 0.3 ease-out;
+}
+
+.where .floor_list.is-inview .title button{
+    transform: translateY(0);
+}
+
+.where .floor_list li:first-child .title button{
+    transition-delay: 1.2s;
+}
+
+.where .floor_list li:nth-child(2) .title button{
+    transition-delay: 1.6s;
+}
+
+.where .floor_list .view{
+    position: relative;
+    padding-left: 24px;
+    margin-left: auto;
+    font-size: 1.375rem;
+    font-family: "Lexend" , sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    font-family: "Mont Heavy DEMO";
+    transform: translateY(300%);
+    transition: all 0.6s ease-out;
+    letter-spacing: -0.045em;
+}
+
+.where .floor_list.is-inview .title .view{
+    transform: translateY(0);
+}
+
+.where .floor_list li:first-child .title .view{
+    transition-delay: 1.2s;
+}
+
+.where .floor_list li:nth-child(2) .title .view{
+    transition-delay: 1.6s;
+}
+
+.where .floor_list .view::before{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    width: 15px;
+    height: 17px;
+    display: block;
+    content: '';
+    background: url(./img/arrow3.png) no-repeat center center;
+    transition: all 0.3s ease-out;
+    transform: translateY(-50%);
+}
+
+.where .floor_list .img_area{
+    margin: 0 auto;
+    transition: all .4s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+.where .floor_list .img_area img{
+    padding:7% 0;
+}
+
+.where address{
+    position: relative;
+    padding: 36px 0 0 0;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.045em;
+    word-break: keep-all;
+    font-style: normal;
+}
+
+.floor_popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 30;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3 ease-out;
+}
+
+.floor_popup.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.floor_popup .popup_cont{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1640px;
+    width: 100%;
+}
+
+.floor_popup .top_area{
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+}
+
+.floor_popup h1{
+    display: flex;
+    align-items: center;
+    font-size: 4.5rem;
+    font-family: "Mont Heavy DEMO";
+    color: #fff;
+}
+
+.floor_popup h1 img{
+    margin-right: 40px;
+}
+
+.floor_popup_close{
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+    background: url(./img/popup_close.png) no-repeat center center;
+}
+
+.floor_popup .img_area{
+    margin: auto;
+}
+
+.program{
+    padding: 170px 20px 80px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.program .cont{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.program .ballon{
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+
+.program .ballon .object{
+    animation: balloon 3s ease-in-out forwards infinite 0.6s;
+}
+
+.program h1{
+    margin-bottom: 100px;
+    display: block;
+    line-height: 1;
+    text-align: right;
+    font-size: 6.3125rem;
+    font-family: "Mont Heavy DEMO";
+}
+
+.program_list{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-out;
+}
+
+.program_list>li{
+    position: relative;
+    width: 33.33%;
+    margin-top: -1px;
+    border: 1px solid #000;
+    border-left: none;
+}
+
+.program_list>li:nth-child(3n+1){
+    border-left: none;
+}
+
+.program_list>li:nth-child(3n){
+    border-right: none;
+}
+.program_list>li.list_1:hover{background-color:#d5e3ff;}
+.program_list>li.list_2:hover{background-color:#e1f5d1;}
+.program_list>li.list_3:hover{background-color:#ffe9d8;}
+.program_list>li.list_4:hover{background-color:#FFDFEA;}
+.program_list>li.list_5:hover{background-color:#f9e9ff;}
+.program_list>li.list_6:hover{background-color:#e4edff;}
+.program_list>li.list_7:hover{background-color:#eee;}
+.program_list>li.list_8:hover{background-color:#ecf3ff;}
+.program_list>li.list_9:hover{background-color:#ffdbde;}
+.program_list>li.list_10:hover{background-color:#ffdbff;}
+.program_list>li.list_11:hover{background-color:#fffadb;}
+.program_list>li.list_12:hover{background-color:#ffe9db;}
+.program_list>li.list_13:hover{background-color:#d5e3ff;}
+
+.program_list>li .inner{
+    position: relative;
+    padding: 40px 30px;
+    min-height: 510px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.program_list>li .top_txt{
+    margin-bottom: 110px;
+}
+
+.program_list>li h2{
+    min-height: 78px;
+    font-size: 1.875rem;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
+    word-break: keep-all;
+    letter-spacing: -0.045em;
+}
+
+.program_list>li .en{
+    margin-top: 15px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.program_list>li ul li{
+    margin-bottom: 15px;
+    display: flex;
+    opacity: 0.7;
+    transition: all 0.3s ease-out;
+}
+
+.program_list>li h3{
+    font-size: 1.0625rem;
+    font-weight: 600;
+    width: 70px;
+    letter-spacing: -0.045em;
+}
+
+.program_list>li .comming_soon, .program_list>li p{
+    width: calc(100% - 70px);
+    font-size: 1.0625rem;
+    font-weight: 500;
+    word-break: keep-all;
+    letter-spacing: -0.045em;
+}
+
+.program_list>li ul li:last-child{
+    margin-bottom: 0;
+}
+
+.program_list>li .img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+.program_m{
+    display: none;
+}
+
+#section-4{
+    position: relative;
+    z-index: 2;
+}
+
+.company{
+    position: relative;
+    z-index: 2;
+    padding: 60px 0 140px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.company .icon{
+    position: absolute;
+    left: 3.7%;
+    bottom: 140px;
+    z-index: 2;
+    width: 8.3%;
+}
+
+.company .left_title{
+    position: absolute;
+    left: -120px;
+    bottom: 30%;
+    font-size: 101px;
+    opacity: 0.1;
+    transform: translateY(-180%);
+    line-height: 1;
+    font-family: "Mont Heavy DEMO";
+    transform: rotate(-90deg);
+}
+
+.company .left_title h1{
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-family: "Mont Heavy DEMO";
+    letter-spacing: -0.045em;
+}
+
+.company .logo_cont{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company .logo_cont .inner{
+    position: relative;
+    padding-left: 50px;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.company .logo_cont .inner::before{
+    position: absolute;
+    left: -35px;
+    top: 90px;
+    width: 61px;
+    height: 48px;
+    background: url(./img/arrow.svg) no-repeat center center;
+    display: block;
+    content: "";
+}
+
+.company .logo_list{
+    padding-right: 18.75%;
+}
+
+.company h2{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.045em;
+}
+
+.company h2::before{
+    position: absolute;
+    left: -24px;
+    top: 12px;
+    width: 9px;
+    height: 9px;
+    background-color: #000;
+    border-radius: 50%;
+    display: block;
+    content: "";
+}
+
+.company ul{
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company ul>li{
+    width: 33.33%;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+.company .pc{
+    display: block;
+}
+
+.company ul.row-text>li{
+    font-size: 1.5rem;
+    width: 25%;
+    padding: 22px 10px;
+    box-sizing: border-box;
+}
+
+.company ul.row-text>li:first-of-type{
+    padding-left: 0;
+}
+
+.company .rolling_contents_wrap{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.company .rolling_contents>div{
+    display: none;
+}
+
+.company .rolling_contents>div:first-child{
+    display: block;
+}
+
+.company .rolling_contents .swiper-slide-inner{
+    position: relative;
+    width: 100%;
+    padding: 100px 100px 120px 100px;
+    box-sizing: border-box;
+}
+
+.company .rolling_contents .swiper-slide-inner .bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.company .rolling_contents .swiper-slide-inner .bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company .rolling_contents .swiper-slide-inner .img_area{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    aspect-ratio: 1/1.42;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.company .rolling_contents .swiper-slide-inner .img_area img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.company .rolling_contents .swiper-slide-inner .txt_area{
+    position: relative;
+    z-index: 2;
+    padding-top: 30px;
+}
+
+.company .rolling_contents .swiper-slide-inner .txt_area .name{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: #50fe43;
+    letter-spacing: -0.045em;
+}
+
+.company .rolling_contents .swiper-slide-inner .txt_area .name span{
+    display: inline-block;
+    color: #50fe43;
+}
+
+.company .rolling_contents .swiper-slide-inner .txt_area .title{
+    font-size: 2.625rem;
+    color: #fff;
+    display: inline;
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+    letter-spacing: -0.045em;
+}
+
+.company .control{
+    position: absolute;
+    z-index: 5;
+    left: 100px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.company .control .logo_move_prev{
+    width: 30px;
+    height: 30px;
+    background: url(./img/left_arrow.svg) no-repeat center center;
+    background-size: 30px;
+}
+
+.company .control .logo_move_next{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background: url(./img/right_arrow.svg) no-repeat center center;
+    background-size: 30px;
+}
+
+.company .mb{
+    display: none;
+}
+
+.footer{
+    position: relative;
+    z-index: 1;
+    padding-top: 180px;
+    background-color: #e8eaef;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+
+.footer::before{
+    position: absolute;
+    left: 0;
+    top: -1%;
+    width: 100%;
+    aspect-ratio: 1 / 0.15;
+    background: url(./img/bo_cloud.png) no-repeat 0 bottom;
+    background-size: 100%;
+    display: block;
+    content: "";
+}
+
+.footer_cont{
+    position: relative;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+    max-width: 1600px;
+}
+
+.footer h1{
+    margin-bottom: 40px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: -0.045em;
+}
+
+.footer_info{
+    display: flex;
+}
+
+.footer_info ul{
+    width: 37.5%;
+}
+
+.footer_info ul li{
+    margin-bottom: 5px;
+    display: flex;
+    font-size: 1.125rem;
+    letter-spacing: -0.045em;
+}
+
+.footer_info ul li strong{
+    width: 90px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.copyright{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.footer .scroll_txt{
+    padding-top: 50px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(128,247,142,1) 65%, rgba(0,239,28,1) 100%);
+}
+
+.footer .marquee-wrap{
+    font-size: 4vw;
+}

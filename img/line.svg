@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="296" height="60" viewBox="0 0 296 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_215" data-name="사각형 215" width="296" height="60" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="벡터_고급_개체" data-name="벡터 고급 개체" transform="translate(0 0)">
+    <g id="그룹_191" data-name="그룹 191">
+      <g id="그룹_190" data-name="그룹 190" clip-path="url(#clip-path)">
+        <path id="패스_1992" data-name="패스 1992" d="M3.12,37.584S15.741,5.891,68.744,9.387C133.528,13.659,133.528,59.5,133.528,59.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6.783"
+              stroke-dasharray="2000" stroke-dashoffset="2000">
+          <animate attributeName="stroke-dashoffset" from="2000" to="0" dur="6s" begin="1s" fill="freeze"/>
+        </path>
+        <path id="패스_1993" data-name="패스 1993" d="M102.554,17.206s25.381-24.593,67.3-8.089S210.792,59.5,210.792,59.5s4.346-35.588,40.523-35.588S292.671,59.5,292.671,59.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="6.783"
+              stroke-dasharray="2000" stroke-dashoffset="2000">
+          <animate attributeName="stroke-dashoffset" from="2000" to="0" dur="6s" begin="1.5s"  fill="freeze"/>
+        </path>
+      </g>
+    </g>
+  </g>
+</svg>
