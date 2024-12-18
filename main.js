@@ -6,9 +6,9 @@ document.querySelector('.__alertPopup .close').addEventListener("click",()=>{
 
 let locoScroll;
 
-if(locoScroll){
-    locoScroll.destroy();
-}
+// if(locoScroll){
+//     locoScroll.destroy();
+// }
 
 locoScroll=new LocomotiveScroll({
     el : document.querySelector("[data-scroll-container]"),
