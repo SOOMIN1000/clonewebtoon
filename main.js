@@ -1,4 +1,4 @@
-// gsap.registerPlugin(ScrollTrigger );
+gsap.registerPlugin(ScrollTrigger );
 
 document.querySelector('.__alertPopup .close').addEventListener("click",()=>{
     document.querySelector('.__alertPopup').remove();
@@ -6,9 +6,9 @@ document.querySelector('.__alertPopup .close').addEventListener("click",()=>{
 
 let locoScroll;
 
-// if(locoScroll){
-//     locoScroll.destroy();
-// }
+if(locoScroll){
+    locoScroll.destroy();
+}
 
 locoScroll=new LocomotiveScroll({
     el : document.querySelector("[data-scroll-container]"),
@@ -22,6 +22,9 @@ locoScroll=new LocomotiveScroll({
     },
     smoothMobile : 0
 });
+
+new ResizeObserver(() => locoScroll.update()).observe(document.querySelector("[data-scroll-container]"));
+locoScroll.on('scroll', ScrollTrigger.update)
 
 // 새로고침시 맨위로 오게끔 (locoscroll 버그 방지용)
 window.onbeforeunload = function () { window.scrollTo(0,0); };
