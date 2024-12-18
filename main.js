@@ -13,7 +13,7 @@ let locoScroll;
 locoScroll=new LocomotiveScroll({
     el : document.querySelector("[data-scroll-container]"),
     smooth:true,
-    reloadOnContextChange : true,
+    // reloadOnContextChange : true,
     smartphone : {
         smooth : true,
     },
