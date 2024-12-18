@@ -3,6 +3,7 @@
 document.querySelector('.__alertPopup .close').addEventListener("click",()=>{
     document.querySelector('.__alertPopup').remove();
 });
+
 let locoScroll;
 
 if(locoScroll){
@@ -14,10 +15,10 @@ locoScroll=new LocomotiveScroll({
     smooth:true,
     reloadOnContextChange : true,
     smartphone : {
-        smooth : false
+        smooth : true,
     },
     tablet :{
-        smooth : false
+        smooth : true
     },
     smoothMobile : 0
 });
